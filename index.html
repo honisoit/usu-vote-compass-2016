@@ -1,0 +1,130 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <script type="text/javascript" src="https://pym.nprapps.org/pym.v1.min.js"></script>
+
+        <style type="text/css">
+          .test-wrapper {
+            width: 100%;
+            margin: auto;
+          }
+          .VC-wrapper {
+            background-color: #eee;
+            border-radius: 1rem;
+            margin: auto;
+            width: 100%;
+            max-width: 450px;
+          }
+          .VC-panel {
+            padding-left: 15px;
+            padding-right: 15px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+          }
+          .VC-results-panel {
+            display: none;
+            text-align: center;
+          }
+          .VC-question-panel {
+            text-align: center;
+          }
+          .VC-question-number {
+            text-align: center;
+            font-size: 1.5em;
+          }
+          .VC-question-body {
+            text-align: left;
+          }
+          .VC-question-options {
+            text-align: left;
+          }
+          .VC-alert {
+            display: none;
+            font-size: 0.75rem;
+            margin-top: 5px;
+            text-transform: uppercase;
+          }
+          .VC-results-interviews {
+            font-size: 1.5rem;
+          }
+          .VC-button {
+            display: inline-block;
+            height: 38px;
+            padding: 0 30px;
+            color: #555;
+            text-align: center;
+            font-size: 11px;
+            font-weight: 600;
+            line-height: 38px;
+            letter-spacing: .1rem;
+            text-transform: uppercase;
+            text-decoration: none;
+            white-space: nowrap;
+            background-color: transparent;
+            border-radius: 4px;
+            border: 1px solid #bbb;
+            cursor: pointer;
+            box-sizing: border-box; }
+          .VC-button:hover,
+          .VC-button:focus,
+          button:focus {
+            color: #333;
+            border-color: #888;
+            outline: 0; }
+          .VC-button.VC-button-primary {
+            color: #FFF;
+            background-color: #33C3F0;
+            border-color: #33C3F0; }
+          .VC-button.VC-button-primary:hover,
+          .VC-button.VC-button-primary:focus {
+            color: #FFF;
+            background-color: #1EAEDB;
+            border-color: #1EAEDB; }
+          input {
+            margin-right: 1rem;
+          }
+
+        </style>
+    </head>
+    <body>
+      <div class="test-wrapper">
+        <div class="VC-wrapper">
+          <div class="VC-panel VC-question-panel">
+            <h1 class="VC-question-number"></h1>
+            <p class="VC-question-body"></p>
+            <div class="VC-question-options"></div>
+            <div class="VC-button" id="VC-submit-button">Next Question</div>
+            <div class="VC-alert"></div>
+
+          </div>
+          <div class="VC-panel VC-results-panel">
+            <h3 class="VC-results-intro">You're closest to:</h3>
+            <h1 class="VC-results-name"></h1>
+            <h3 class="VC-results-similarity"><h3>
+            <p class="VC-results-interviews">
+              <a href="http://honisoit.com/2016/05/judge-for-yourselves-usu-board-candidate-interviews/">
+                You can find all the candidate profiles and interviews here.
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+
+        <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
